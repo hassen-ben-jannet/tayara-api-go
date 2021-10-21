@@ -1,0 +1,14 @@
+syntax = "proto3";
+package pb;
+option go_package = "./pb";
+
+
+
+message User {
+    string Name = 1;
+    string Email = 2;
+    string Profile_id = 3;
+    string Password = 4;
+
+  }
+  
